@@ -3,7 +3,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/khulnasoft-lab/PacketStreamer)](https://github.com/khulnasoft-lab/PacketStreamer/stargazers)
 [![Hacktoberfest](https://img.shields.io/github/hacktoberfest/2022/khulnasoft-lab/PacketStreamer)](https://github.com/khulnasoft-lab/PacketStreamer/issues)
 [![GitHub issues](https://img.shields.io/github/issues/khulnasoft-lab/PacketStreamer)](https://github.com/khulnasoft-lab/PacketStreamer/issues)
-[![Slack](https://img.shields.io/badge/slack-@deepfence-blue.svg?logo=slack)](https://join.slack.com/t/khulnasoft/shared_invite/zt-podmzle9-5X~qYx8wMaLt9bGWwkSdgQ)
+[![Slack](https://img.shields.io/badge/slack-@khulnasoft-blue.svg?logo=slack)](https://join.slack.com/t/khulnasoft/shared_invite/zt-podmzle9-5X~qYx8wMaLt9bGWwkSdgQ)
 
 # PacketStreamer
 
@@ -88,7 +88,7 @@ cp ./contrib/config/sensor-local.yaml ./contrib/config/sensor.yaml
 Thank you for using PacketStreamer.
 
  * [<img src="https://img.shields.io/badge/documentation-read-green">](https://docs.khulnasoft.com/packetstreamer/) Start with the documentation
- * [<img src="https://img.shields.io/badge/slack-@deepfence-blue.svg?logo=slack">](https://join.slack.com/t/khulnasoft/shared_invite/zt-podmzle9-5X~qYx8wMaLt9bGWwkSdgQ) Got a question, need some help?  Find the Khulnasoft team on Slack
+ * [<img src="https://img.shields.io/badge/slack-@khulnasoft-blue.svg?logo=slack">](https://join.slack.com/t/khulnasoft/shared_invite/zt-podmzle9-5X~qYx8wMaLt9bGWwkSdgQ) Got a question, need some help?  Find the Khulnasoft team on Slack
  * [![GitHub issues](https://img.shields.io/github/issues/khulnasoft-lab/PacketStreamer)](https://github.com/khulnasoft-lab/PacketStreamer/issues) Got a feature request or found a bug? Raise an issue
  * [productsecurity *at* khulnasoft *dot* io](SECURITY.md): Found a security issue? Share it in confidence
  * Find out more at [khulnasoft.com](https://khulnasoft.com/)
