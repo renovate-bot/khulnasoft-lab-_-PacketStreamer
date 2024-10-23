@@ -14,11 +14,14 @@ permissions:
 jobs:
   automerge:
     runs-on: ubuntu-latest
-    if: github.actor == 'dependabot[bot]'
+    if: github.actor == 'dependabot[bot]' || github.actor == 'renovate-bot'
     steps:
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.ORG_REPO_TOKEN }}
+
+      - name: Log PR info
+        run: echo "Processing PR: ${{ github.event.pull_request.title }} by ${{ github.actor }}"
 
       - uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
