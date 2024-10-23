@@ -20,9 +20,6 @@ jobs:
         with:
           token: ${{ secrets.ORG_REPO_TOKEN }}
 
-      - name: Log PR info
-        run: echo "Processing PR: ${{ github.event.pull_request.title }} by ${{ github.actor }}"
-
       - uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
           github-token: ${{ secrets.ORG_REPO_TOKEN }}
