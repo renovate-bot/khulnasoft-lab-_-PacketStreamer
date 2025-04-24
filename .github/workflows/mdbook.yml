@@ -10,7 +10,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Build book
       run: |
         cargo install mdbook
@@ -20,7 +20,7 @@ jobs:
         popd
     - name: Deploy website
       if: github.event_name == 'push'
-      uses: JamesIves/github-pages-deploy-action@v4.6.1
+      uses: JamesIves/github-pages-deploy-action@v4.7.3
       with:
         branch: gh-pages
         folder: docs-mdbook/book
