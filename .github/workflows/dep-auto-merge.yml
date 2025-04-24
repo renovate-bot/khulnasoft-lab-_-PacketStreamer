@@ -3,7 +3,7 @@ name: 🤖 dep auto merge
 on:
   pull_request:
     branches:
-      - dev
+      - main
   workflow_dispatch:
 
 permissions:
@@ -14,7 +14,7 @@ permissions:
 jobs:
   automerge:
     runs-on: ubuntu-latest
-    if: github.actor == 'dependabot[bot]'
+    if: github.actor == 'dependabot[bot]' || github.actor == 'renovate-bot'
     steps:
       - uses: actions/checkout@v4
         with:
